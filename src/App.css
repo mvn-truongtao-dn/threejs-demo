@@ -25,3 +25,16 @@ body {
   border-radius: 4px;
   transition: 0.4s linear;
 }
+
+.group-button-character {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.button-character{
+  height: 50px;
+  margin-bottom: 10px;
+}

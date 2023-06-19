@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 import "./App.css";
 import { useEffect } from "react";
 import * as THREE from "three";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 import Character from "./components/Character";
 import ListCharacter from "./components/ListCharacter";
+=======
+import './App.css';
+import Loading from './components/Loading';
+>>>>>>> develop
 
 function App() {
   // useEffect(() => {
@@ -292,6 +297,7 @@ function App() {
       {/* <canvas id="game"></canvas> */}
       {/* <Character /> */}
       <ListCharacter />
+      {/* <Loading /> */}
     </>
   );
 }
